@@ -20,32 +20,45 @@ body {
 /*
   Afecta a cualquier elemento con class="destacado"
 */
-.destacado {color: blue;}
+.destacado {
+  color: blue;
+}
 
 /*
   Afecta solo a los <p class="destacado">
 */
-p.destacado {text-decoration: underline;}
+p.destacado {
+  /* text-decoration: underline; */
+}
 
 /*
   Afecta a todos los elementos dentro de un <p> que tengan class="destacado"
 */
-p .destacado {font-size: 15px;}
+p .destacado {
+  /*font-size: 15px; */
+}
 
 /*
   Afecta a todos los elementos <p> y a todos los que tengan class="destacado"
 */
-p, .destacado {font-weight: bold;}
+p, .destacado {
+  align=left;
+  /*font-weight: bold;*/
+}
 
 
 /*
   Afecta a cualquier elemento con id="destacado"
 */
-#destacado {color: red;}
+#destacado {
+  color: red;
+}
 
 /*
   Afecta solo a los <p id="destacado">
 */
-p#destacado {color: blue;}
+p#destacado {
+  color: blue;
+}
 
 /* etc. Same as '.' (dot) */

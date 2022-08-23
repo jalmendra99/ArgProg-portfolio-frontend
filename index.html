@@ -2,24 +2,68 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Portfolio web Fernando Vega</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+
+		<!-- Bootstrap CSS -->
+		<!-- Instalación atada, compilada y minimizada -->
+		<link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Mi viejo .css...
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		-->
+
 	</head>
 
 	<!--
 		Cuerpo principal del documento html.
 	-->
 	<body text="black">
-		<img src="img/audio-headset-desktop.jpg" alt="Portfolio web" height="200px">
-		<h1>
+
+
+		<img src="img/audio-headset-desktop.jpg" alt="Portfolio web Fernando Vega" width="100%" height="300px">
+
+		<h1 id="titulo">
 			<p align="center">Portfolio web Fernando Vega</p>
 		</h1>
-		<!-- <p style="font-family:serif;">TextoTexto</p> -->
-		<p align="left">Datos personales</p>
-		<p align="left">Información de contacto</p>
-		<p align="left">Estudios y conocimientos</p>
-		<p align="left">Experiencia laboral</p>
 
+		<!-- <p style="font-family:serif;">TextoTexto</p> -->
+		<h2 id="personales"  align="left">Datos personales</h2>
+			<p>Foto?</p>
+			<p>Edad?</p>
+
+
+		<h2 id="contacto"    align="left">Información de contacto</h2>
+			<p>Email: <a href="mailto:yes.the.rookie@gmail.com">yes.the.rookie@gmail.com</a></p>
+			<p>Whatsapp: <a href="https://wa.me/+5491154237384/?text=%C2%A1Hola!%20Te%20contacto%20por%20el%20portfolio%20web.">+54 9 11 5423 7384</a></p>
+			<!--
+			<p><a href="#">Facebook</a></p>
+		  <p><a href="#">Tiwtter</a></p>
+			-->
+
+
+		<h2 id="experiencia" align="left">Experiencia laboral</h2>
+			<p>Experiencia 1</p>
+			<p>Experiencia 2</p>
+
+
+		<h2 id="educacion"    align="left">Educación</h2>
+			<p>Estudio 1</p>
+			<p>Estudio 2</p>
+
+
+		<h2 id="skills"       align="left">Hard & Soft skills</h2>
+			<p>Skill 1 (con gráficos)</p>
+			<p>Skill 2 (con gráficos)...etc</p>
+
+
+		<h2 id="proyectos"    align="left">Proyectos</h2>
+			<p>Algún proyecto que hayas armado 1</p>
+			<p>Algún proyecto que hayas armado 2</p>
+
+
+
+		<br>
 		<p><u>Tests</u><br>
 			<a href="tests/1_headers.html">Link a test1 (headers)</a><br>
 			<a href="tests/2_lists.html"  >Link a test2 (lists)</a><br>
@@ -28,10 +72,21 @@
 			<a href="tests/5_colors.html" >Link a test5 (colors)</a><br>
 			<br>
 			<br>
-			<br>
 			<a href="tests/9_script.html" >Link a test9 (javascript)</a><br>
 		</p>
 
+
+		<footer>
+		  <h4>Pié de página</h4>
+		  <p><tt>Acceso como administrador</tt></p>
+		  <br>
+		  <a href="#titulo">Volver arriba</a>
+		</footer>
+
+
+
+		<!-- Bootstrap JS -->
+		<script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<!-- <script src="javascript_script.js"></script>  -->
 	</body>
 
